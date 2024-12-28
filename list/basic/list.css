@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* Common */
+.chulsuk-book { display:inline-block; height:26px; line-height:20px; padding:4px 8px; margin-top:10px; }
+.chulsuk-msg { border:1px solid #ddd; padding:10px; margin-top:8px; }
+.chulsuk-notice .talk-bubble ul { list-style:none; margin:0px; padding:0px; line-height:24px; }
+
+#fchulsuk .msg-content { display:table; width:100%; table-layout:fixed; }
+#fchulsuk .msg-content .msg-cell { display:table-cell; padding:0px; text-align:center; vertical-align:middle; }
+#fchulsuk .msg-content .msg-cell.msg-submit { width:80px; height:100%; background:#fafafa; border:1px solid #ccc; border-left:0px; cursor:pointer; }
+#fchulsuk .anc-write { display:none; margin-top:4px; }
+.chk-photo { color:#888; letter-spacing:-1px; text-align:left !important; background: none !important; padding:0px !important; margin: 15px 0px 0px !important; margin-right:15px !important; box-shadow:none !important; display:inline-block !important; height:14px; line-height:14px !important; }
+.ko .chk-photo { font-size:12px !important; font-family:dotum !important; }
+.chk-photo span { margin-left:4px; }
+.chk-photo.active { color:orangered; }
+
+.msg-icon a { display:inline-block; margin:8px; }
+.msg-icon p { padding:6px 0px 0px; margin:0px; }
+
+/* List */
+.board-list .talk-bubble { padding:15px; }
+.board-list .info { margin-bottom:8px; }
+.board-list .talk { padding:10px; border:1px solid #eee; background:#fff; }
+.board-list .sp { display:inline; margin-right:30px; }
+.board-list .list-none { padding:30px 0px; }
+
+@media all and (max-width:460px) {
+	.responsive .msg-btn .pull-left,
+	.responsive .msg-btn .pull-right { float:none !important; }
+	.responsive .board-list .sp { margin-right:10px; }
+	.responsive .board-list .sp-none { display:none; }
+}
